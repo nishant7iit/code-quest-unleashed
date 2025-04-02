@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
@@ -15,7 +14,8 @@ import {
   FileText,
   MessageSquare,
   Download,
-  Share2
+  Share2,
+  ChevronDown
 } from "lucide-react";
 
 // Mock course data
