@@ -1,4 +1,3 @@
-
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "@/components/ui/breadcrumb";
@@ -26,9 +25,11 @@ const Roadmap = () => {
       <main className="flex-grow container mx-auto px-4 py-8">
         <Breadcrumb className="mb-6">
           <BreadcrumbItem>
-            <BreadcrumbLink as={Link} to="/" className="flex items-center">
-              <Home className="h-4 w-4 mr-1" />
-              Home
+            <BreadcrumbLink className="flex items-center">
+              <Link to="/" className="flex items-center">
+                <Home className="h-4 w-4 mr-1" />
+                Home
+              </Link>
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbItem>
